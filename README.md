@@ -12,7 +12,3 @@ launch mut.
 the command line is :
 
 java -jar <jar localisation and name> <result directory> <false or true for using strategy 1> <false or true for using strategy 2> <number maximum of test cases from a single test case for strategy 2>
-
-mkdir -p tests
-
-java -jar target/mutationCreation-1.0-SNAPSHOT-jar-with-dependencies.jar tests false false 0
