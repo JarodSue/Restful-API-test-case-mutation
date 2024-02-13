@@ -15,7 +15,7 @@ class operator {
     public operator() {
     }
     
-    //always in mutable, return if we can mutated the transition
+    //return if we can mutate the transition
     public boolean isMutableToPCO(String PCO, Event ev){
         return (ev.getTo().equals(PCO));
     }

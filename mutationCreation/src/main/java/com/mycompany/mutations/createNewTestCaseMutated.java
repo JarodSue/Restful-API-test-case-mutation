@@ -37,6 +37,8 @@ public class createNewTestCaseMutated {
         listOfOperators.add(new operatorToken());
         listOfOperators.add(new operatorPathTransversal());*/
         listOfOperators.add(new operatorVerbPOST());
+        
+        
         //loop for each operator, we loop each test cases
         ArrayList<TestCase> allNewTestCases= new ArrayList<>();
         for(operator op : listOfOperators){
